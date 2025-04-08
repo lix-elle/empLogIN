@@ -80,6 +80,7 @@ public class EmployeeListWindow {
         GridBagConstraints gbc = new GridBagConstraints();
         gbc.insets = new Insets(10, 10, 10, 10);
         gbc.fill = GridBagConstraints.HORIZONTAL;
+        panel.setOpaque(false);
 
         gbc.gridx = 0; gbc.gridy = 0;
         panel.add(new JLabel("ID Number:") {{ setFont(new Font("Verdana", Font.BOLD, 13)); }}, gbc);
